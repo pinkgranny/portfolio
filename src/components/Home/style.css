@@ -1,0 +1,19 @@
+.Home .people,
+.Home .ai {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home .people {
+  background: #729799;
+}
+
+.Home .ai {
+  background: #bfd1d3;
+}
+
+.main-image {
+  margin-bottom: 15px;
+}
