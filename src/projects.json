@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+    "id": 1,
+    "image": "https://d3egew7zjohdb1.cloudfront.net/ponIltIpIv-1457012004/marmai/e1jft8-Muumi.jpg/alternates/LANDSCAPE_640/Muumi.jpg",
+    "url": "https://www.hs.fi/",
+    "name": "Weather-api",
+    "description": "In this project, I fetched the weather information from weather API and with a JavaScript script define which image and background colour to show based on the current temperature."
+    },
+    {
+    "id": 2,
+    "image": "https://d3egew7zjohdb1.cloudfront.net/ponIltIpIv-1457012004/marmai/e1jft8-Muumi.jpg/alternates/LANDSCAPE_640/Muumi.jpg",
+    "url": "https://www.hs.fi/",
+    "name": "Weather-api",
+    "description": "In this project, I fetched the weather information from weather API and with a JavaScript script define which image and background colour to show based on the current temperature."
+    },
+    {
+    "id": 3,
+    "image": "https://d3egew7zjohdb1.cloudfront.net/ponIltIpIv-1457012004/marmai/e1jft8-Muumi.jpg/alternates/LANDSCAPE_640/Muumi.jpg",
+    "url": "https://www.hs.fi/",
+    "name": "Weather-api",
+    "description": "In this project, I fetched the weather information from weather API and with a JavaScript script define which image and background colour to show based on the current temperature."
+    }
+  ]
+}

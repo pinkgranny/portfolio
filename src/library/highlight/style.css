@@ -1,0 +1,15 @@
+.Highlight {
+  background: red;
+}
+
+.Home .top-two-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Home .top-two-highlight {
+  width: 50%;
+  height: 100px;
+  padding: 10px;
+
+}
