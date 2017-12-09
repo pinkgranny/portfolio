@@ -2,14 +2,16 @@
   background: red;
 }
 
-.Home .top-two-wrapper {
+/*.Highlight .top-two-wrapper {
   display: flex;
   justify-content: space-between;
+}*/
+.Home .Highlight {
+  display: flex;
 }
 
-.Home .top-two-highlight {
+.Home .Highlight .top-two-highlight {
   width: 50%;
-  height: 100px;
+  height: 500px;
   padding: 10px;
-
 }

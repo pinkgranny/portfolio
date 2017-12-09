@@ -1,11 +1,8 @@
 import React from "react"
 import Highlight from "./../../library/highlight"
-import Navigation from "./../../library/navigation"
 import "./style.css"
 
 const projectsJson = require("./../../projects.json")
-
-
 
 class Home extends React.Component {
 
@@ -22,7 +19,7 @@ class Home extends React.Component {
           </div>
         </div>
 
-        <div className="top-one-highlight">
+        <div className="top-two-highlight">
           {projectsJson.projects.map((item) => {
             return <Highlight
               key={item.id}
@@ -32,29 +29,6 @@ class Home extends React.Component {
               description={item.description} />
           })}
         </div>
-
-        {/* <BrowserRouter>
-
-        <Link to="/Project">Project site link text</Link>
-
-        <Route path="components/Project" component={Project} /> */}
-
-        {/* <div className="top-two-wrapper">
-          <Highlight
-            className="top-two-highlight"
-            text="left-highlight" />
-
-          <Highlight
-            className="top-two-highlight"
-            text="right-highlight" />
-        </div>
-
-        <Highlight
-          className="top-one-highlight"
-          text="group-highlight" /> */}
-
-        <Navigation />
-      {/* </<BrowserRouter> */}
       </div>
 
     )
