@@ -15,3 +15,31 @@
   height: 500px;
   padding: 10px;
 }
+
+.Home .Highlight .imageHolder {
+  width: 100%;
+  height: 300px;
+  align-self: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.Home .Highlight .intro-text {
+  display: none;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  margin: 5px;
+}
+
+.Home .Highlight:hover .intro-text {
+  display: block;
+  z-index: 3;
+}
+
+.Home .Highlight .imageHolder:hover {
+display: none;
+}

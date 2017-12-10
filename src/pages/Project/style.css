@@ -1,0 +1,13 @@
+.ProjectPage .project-intro {
+  display: flex;
+}
+
+.ProjectPage .project-intro .project-image {
+  background: yellow;
+  width: 60%;
+}
+
+.ProjectPage .project-intro .project-description {
+  background: purple;
+  width: 40%;
+}

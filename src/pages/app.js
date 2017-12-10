@@ -4,6 +4,7 @@ import Navigation from "./../library/navigation"
 
 import Home from "./Home"
 import About from "./About"
+import Project from "./Project"
 
 class App extends React.Component {
 
@@ -11,8 +12,9 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div className="container">
-          <Route path="/" exact component={Home} />
+          <Route path="/Home" component={Home} />
           <Route path="/About" component={About} />
+          <Route path="/Project" component={Project} />
           <Navigation />
         </div>
       </BrowserRouter>
