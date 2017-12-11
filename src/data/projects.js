@@ -2,14 +2,20 @@ export default [
   {
     id: "yearbook",
     name: "Yearbook",
-    description: "Build a yearbook using floats"
+    name2: "Responsive floats",
+    description: "Build a yearbook using floats",
+    url: "https://pinkgranny.github.io/assignment-yearbook/"
   }, {
-    id: "hero",
-    name: "Hero",
-    description: "Create a responsive hero banner"
+    id: "radio",
+    name: "Radio",
+    name2: "APIs and JSON",
+    description: "Use the API from Swedish Radio to create a radio player page",
+    url: "https://pinkgranny.github.io/assignment-radio-player/"
   }, {
-    id: "radio-player",
-    name: "Radio Player",
-    description: "A radio player using the Sveriges Radio API"
+    id: "calendar",
+    name: "Christmas Calendar",
+    name2: "HTML, CSS and JavaScript",
+    description: "A group effort to build a Christmas calendar with JavaScript",
+    url: "http://cookiedough-poincare-d7a52d.netlify.com/"
   }
 ]

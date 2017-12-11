@@ -1,5 +1,5 @@
 import React from "react"
-// import "./../images"
+import image from "./kaisa.jpg"
 import "./style.css"
 
 class About extends React.Component {
@@ -15,7 +15,7 @@ class About extends React.Component {
         </div>
         <div className="wrapper">
           <div className="bio-image">
-            {/* <img src="./../images/kaisa.jpg" alt="" /> */}
+            <img src={image} alt="" />
           </div>
           <div className="bio">
             <h2>Who am I?</h2>

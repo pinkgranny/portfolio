@@ -14,7 +14,8 @@ class App extends React.Component {
         <div className="container">
           <Route path="/Home" component={Home} />
           <Route path="/About" component={About} />
-          <Route path="/Project" component={Project} />
+          {/* <Route path="/Project" component={Project} /> */}
+          <Route path="/projects/:id" component={Project} />
           <Navigation />
         </div>
       </BrowserRouter>
