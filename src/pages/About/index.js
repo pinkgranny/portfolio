@@ -1,4 +1,5 @@
 import React from "react"
+import Accordion from "library/accordion"
 import image from "./kaisa.jpg"
 import "./style.css"
 
@@ -15,16 +16,18 @@ class About extends React.Component {
         </div>
         <div className="wrapper">
           <div className="bio-image">
-            <img src={image} alt="" />
+            {/* <img src={image} alt="" /> */}
           </div>
           <div className="bio">
             <h2>Who am I?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                Quae nostrum accusantium, facere aliquam sequi ducimus dolorum,
                ipsum eaque non, at harum dolor, voluptatibus! Laborum earum,
-                exercitationem facere, laudantium animi architecto?</p>
+                exercitationem facere, laudantium animi architecto?
+            </p>
           </div>
         </div>
+        <Accordion />
       </div>
     )
   }
